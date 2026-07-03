@@ -226,6 +226,43 @@
         <p class="center" style="margin-top:32px"><a class="btn btn--ghost" data-cms="journal_cta" href="/blog/index.html">Read the journal</a></p>
       </div>
     </section>
+
+    <section class="section band">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow" data-cms="gallery_eyebrow">From the crock</span>
+          <h2 data-cms="gallery_headline">A little photo gallery.</h2>
+          <p class="measure" data-cms="gallery_sub">Sign in and hit “+ Add photos” to drop in your own — the grid grows, and visitors get a full-screen viewer.</p>
+        </div>
+        <div data-cms-repeat="gallery" data-kiln-gallery>
+          <figure><img src="/assets/img/jar-1.svg" alt="A jar of dills" loading="lazy"><figcaption data-cms="gallery_cap">Classic dills</figcaption></figure>
+          <figure><img src="/assets/img/jar-3.svg" alt="A jar of spears" loading="lazy"><figcaption data-cms="gallery_cap">Spears</figcaption></figure>
+          <figure><img src="/assets/img/jar-5.svg" alt="A jar of chips" loading="lazy"><figcaption data-cms="gallery_cap">Bread &amp; butter</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow" data-cms="events_eyebrow">What's on</span>
+          <h2 data-cms="events_headline">Events &amp; tastings.</h2>
+          <p class="measure" data-cms="events_sub">Sign in and hit “+ Add event” for a form; visitors switch between list, month, week, and day views.</p>
+        </div>
+        <div data-cms-repeat="events" data-kiln-events>
+          <article class="kiln-event">
+            <h3 class="kiln-ev-title" data-cms="ev_title">Pickling 101 workshop</h3>
+            <p class="kiln-ev-when"><time datetime="2026-07-18T18:00">Jul 18 · 6:00 PM</time> – <time datetime="2026-07-18T20:00">8:00 PM</time></p>
+            <p class="kiln-ev-loc" data-cms="ev_loc">The Brine Room</p>
+          </article>
+          <article class="kiln-event">
+            <h3 class="kiln-ev-title" data-cms="ev_title">Saturday market stall</h3>
+            <p class="kiln-ev-when"><time datetime="2026-07-25T09:00">Jul 25 · 9:00 AM</time></p>
+            <p class="kiln-ev-loc" data-cms="ev_loc">Town Square</p>
+          </article>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="site-footer">
