@@ -1,5 +1,5 @@
 window.KILN = {
-  repo:   'erikkurtu/kiln-demo',
+  repo:   'kilncms/kiln-demo',
   branch: 'main',
   worker: 'https://auth.kilncms.com',
   siteName: 'Big Dill',
